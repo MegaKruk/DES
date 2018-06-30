@@ -56,9 +56,9 @@ Compiling architecture behavior of entity revIP [revip_default]
 Compiling architecture behavioral of entity DES_Decoder [des_decoder_default]
 Compiling architecture behavioral of entity des_decoder_des_decoder_sch_tb
 Time Resolution for simulation is 1ps.
-Waiting for 19 sub-compilation(s) to finish...
+Waiting for 13 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\DES_Decoder_DES_Decoder_sch_tb_isim_beh.exe.sim\libPortability.dll".
 Compiled 49 VHDL Units
 Built simulation executable C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder_DES_Decoder_sch_tb_isim_beh.exe
-Fuse Memory Usage: 53064 KB
-Fuse CPU Usage: 889 ms
+Fuse Memory Usage: 53576 KB
+Fuse CPU Usage: 765 ms
