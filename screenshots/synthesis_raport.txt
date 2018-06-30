@@ -1,0 +1,62 @@
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1632
+ Flip-Flops                                            : 1632
+# Shift Registers                                      : 112
+ 2-bit shift register                                  : 112
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500evq100-5 
+
+ Number of Slices:                      170  out of   4656     3%  
+ Number of 4 input LUTs:                330  out of   9312     3%  
+ Number of IOs:                         144
+ Number of bonded IOBs:                 144  out of     66   218% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk_50MHz                          | BUFGP                  | 1856  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.414ns (Maximum Frequency: 155.902MHz)
+   Minimum input arrival time before clock: 7.541ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+Process "Synthesize - XST" completed successfully

@@ -265,42 +265,40 @@
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
-    <transform xil_pn:end_ts="1530358474" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1530358474">
+    <transform xil_pn:end_ts="1530362904" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1530362904">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:in_ck="-7644595406339715787" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3190894243717647719" xil_pn:start_ts="1530359286">
+    <transform xil_pn:end_ts="1530362905" xil_pn:in_ck="-7644595406339715787" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3190894243717647719" xil_pn:start_ts="1530362904">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Decoder.vhf"/>
       <outfile xil_pn:name="Feistel.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6349178543514072701" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362905" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6349178543514072701" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362905" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2946350703246651863" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362905" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2946350703246651863" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297138737980" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362905" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297138737980" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359288" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8292396658590897031" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362905" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8292396658590897031" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1530359316" xil_pn:in_ck="-984663804378170175" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5289350297834866259" xil_pn:start_ts="1530359288">
+    <transform xil_pn:end_ts="1530362936" xil_pn:in_ck="-984663804378170175" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5289350297834866259" xil_pn:start_ts="1530362905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="DES_Decoder.jhd"/>
       <outfile xil_pn:name="DES_Decoder.lso"/>

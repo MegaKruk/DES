@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Reading design: DES_Decoder.prj
 
@@ -139,28 +139,25 @@ Architecture behavior of Entity pc2 is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/syncReg.vhd" in Library work.
 Architecture behavioral of Entity syncreg is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR1.vhd" in Library work.
-Entity <rotr1> compiled.
-Entity <rotr1> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity rotr1 is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR2.vhd" in Library work.
 Architecture behavioral of Entity rotr2 is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/revIP.vhd" in Library work.
 Architecture behavior of Entity revip is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" in Library work.
-Entity <Feistel_MUSER_DES_Decoder> compiled.
-Entity <Feistel_MUSER_DES_Decoder> (Architecture <BEHAVIORAL>) compiled.
-Entity <DES_Decoder> compiled.
-Entity <DES_Decoder> (Architecture <BEHAVIORAL>) compiled.
+Architecture behavioral of Entity feistel_muser_des_decoder is up to date.
+Architecture behavioral of Entity des_decoder is up to date.
 Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.vhf" in Library work.
 Architecture behavioral of Entity feistel is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <DES_Decoder> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <DES_Decoder> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <IP> in library <work> (architecture <behavior>).
 
-Analyzing hierarchy for entity <Feistel_MUSER_DES_Decoder> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <Feistel_MUSER_DES_Decoder> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <PC1> in library <work> (architecture <behavior>).
 
@@ -204,7 +201,7 @@ Analyzing hierarchy for entity <sbox_7> in library <work> (architecture <behavio
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <DES_Decoder> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <DES_Decoder> in library <work> (Architecture <behavioral>).
 WARNING:Xst:753 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" line 761: Unconnected output port 'leftkeyOut' of component 'syncReg'.
 WARNING:Xst:753 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" line 761: Unconnected output port 'rightkeyOut' of component 'syncReg'.
 Entity <DES_Decoder> analyzed. Unit <DES_Decoder> generated.
@@ -212,7 +209,7 @@ Entity <DES_Decoder> analyzed. Unit <DES_Decoder> generated.
 Analyzing Entity <IP> in library <work> (Architecture <behavior>).
 Entity <IP> analyzed. Unit <IP> generated.
 
-Analyzing Entity <Feistel_MUSER_DES_Decoder> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <Feistel_MUSER_DES_Decoder> in library <work> (Architecture <behavioral>).
 Entity <Feistel_MUSER_DES_Decoder> analyzed. Unit <Feistel_MUSER_DES_Decoder> generated.
 
 Analyzing Entity <expP> in library <work> (Architecture <behavior>).
@@ -885,12 +882,12 @@ Offset:              4.040ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 26.00 secs
-Total CPU time to Xst completion: 25.55 secs
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 27.71 secs
  
 --> 
 
-Total memory usage is 4651444 kilobytes
+Total memory usage is 4653432 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   92 (   0 filtered)

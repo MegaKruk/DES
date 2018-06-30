@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-06-30T13:47:23</DateModified>
-  <ModuleName>Feistel</ModuleName>
+  <DateModified>2018-06-30T14:49:20</DateModified>
+  <ModuleName>DES_Decoder</ModuleName>
   <SummaryTimeStamp>2018-06-30T13:34:48</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Filicz/Documents/workspace/ISE Projects/DES/iseconfig/DES_Decoder.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Filicz/Documents/workspace/ISE Projects/DES\</ImplementationReportsDirectory>

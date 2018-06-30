@@ -5,277 +5,277 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf</arg>&quot; line <arg fmt="%d" index="2">761</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">leftkeyOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">syncReg</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf</arg>&quot; line <arg fmt="%d" index="2">761</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">leftkeyOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">syncReg</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf</arg>&quot; line <arg fmt="%d" index="2">761</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">rightkeyOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">syncReg</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf</arg>&quot; line <arg fmt="%d" index="2">761</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">rightkeyOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">syncReg</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;23&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;23&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;39&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;39&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;47&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;47&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;55&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;55&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">myinput&lt;63&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">myinput&lt;63&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;17&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;17&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;21&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;21&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;24&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;24&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;34&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;34&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;37&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;37&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;42&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;42&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;53&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">myMerge&lt;53&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">myArray&lt;48:55&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">myArray&lt;48:55&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_130</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/leftkeyOut_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_135/rightkeyOut_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/leftkeyOut_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_130/rightkeyOut_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DES_Decoder</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
