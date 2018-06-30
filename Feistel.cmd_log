@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Feistel_drc.vhf -w {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym Feistel {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.sch} {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.sym} 

@@ -1,0 +1,12 @@
+[Inputs]
+clk
+=leftIn[0:31]=
+=rightIn[0:31]=
+=leftkeyIn[0:27]=
+=rightkeyIn[0:27]=
+[Outputs]
+=leftOut[0:31]=
+=rightOut[0:31]=
+=leftkeyOut[0:27]=
+=rightkeyOut[0:27]=
+[BiDir]

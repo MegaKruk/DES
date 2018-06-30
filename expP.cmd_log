@@ -1,0 +1,2 @@
+vhdtdtfi -lib work expP.vhd -prj DES -o expP.spl -module expP -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e expP.spl {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/expP.sym} 

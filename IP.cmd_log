@@ -1,0 +1,2 @@
+vhdtdtfi -lib work IP.vhd -prj DES -o IP.spl -module IP -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IP.spl {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/IP.sym} 

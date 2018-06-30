@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DES.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DES_Decoder.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="DES_Decoder.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="DES_Decoder_drc.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Feistel.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="Feistel.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Feistel_drc.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IP.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="IP.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="IP.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="IP.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="IP.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="PC1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="PC1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC2.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="PC2.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC2.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="PC2.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="expP.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="expP.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="expP.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="expP.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="expP.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pblockP.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="pblockP.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pblockP.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="pblockP.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pblockP.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="revIP.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="revIP.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="revIP.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="revIP.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="revIP.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotR1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="rotR1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="rotR1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="rotR1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="rotR1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotR2.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="rotR2.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="rotR2.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="rotR2.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="rotR2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_0.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_0.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_0.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_0.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_0.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_2.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_2.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_2.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_2.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_3.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_3.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_3.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_3.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_3.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_4.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_4.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_4.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_4.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_4.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_5.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_5.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_5.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_5.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_5.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_6.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_6.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_6.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_6.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_6.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_7.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_7.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sbox_7.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sbox_7.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sbox_7.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sboxes.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sboxes.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sboxes.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sboxes.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sboxes.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="syncReg.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="syncReg.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="syncReg.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="syncReg.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="syncReg.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="xor48.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="xor48.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="xor48.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="xor48.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="xor48.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="xorLR.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="xorLR.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="xorLR.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="xorLR.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="xorLR.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1530357448" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1530357448">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357737" xil_pn:in_ck="6187465325756651520" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1530357737">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IP.vhd"/>
+      <outfile xil_pn:name="PC1.vhd"/>
+      <outfile xil_pn:name="PC2.vhd"/>
+      <outfile xil_pn:name="expP.vhd"/>
+      <outfile xil_pn:name="pblockP.vhd"/>
+      <outfile xil_pn:name="revIP.vhd"/>
+      <outfile xil_pn:name="rotR1.vhd"/>
+      <outfile xil_pn:name="rotR2.vhd"/>
+      <outfile xil_pn:name="sbox_0.vhd"/>
+      <outfile xil_pn:name="sbox_1.vhd"/>
+      <outfile xil_pn:name="sbox_2.vhd"/>
+      <outfile xil_pn:name="sbox_3.vhd"/>
+      <outfile xil_pn:name="sbox_4.vhd"/>
+      <outfile xil_pn:name="sbox_5.vhd"/>
+      <outfile xil_pn:name="sbox_6.vhd"/>
+      <outfile xil_pn:name="sbox_7.vhd"/>
+      <outfile xil_pn:name="sboxes.vhd"/>
+      <outfile xil_pn:name="syncReg.vhd"/>
+      <outfile xil_pn:name="test_DES_Decoder.vhd"/>
+      <outfile xil_pn:name="xor48.vhd"/>
+      <outfile xil_pn:name="xorLR.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357477" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4721899233134773711" xil_pn:start_ts="1530357477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357744" xil_pn:in_ck="-7644595406339715787" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6924562882118949167" xil_pn:start_ts="1530357739">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DES_Decoder.vhf"/>
+      <outfile xil_pn:name="Feistel.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357482" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6349178543514072701" xil_pn:start_ts="1530357482">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357744" xil_pn:in_ck="-7598277839480664607" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1530357744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DES_Decoder.vhf"/>
+      <outfile xil_pn:name="Feistel.vhf"/>
+      <outfile xil_pn:name="IP.vhd"/>
+      <outfile xil_pn:name="PC1.vhd"/>
+      <outfile xil_pn:name="PC2.vhd"/>
+      <outfile xil_pn:name="expP.vhd"/>
+      <outfile xil_pn:name="pblockP.vhd"/>
+      <outfile xil_pn:name="revIP.vhd"/>
+      <outfile xil_pn:name="rotR1.vhd"/>
+      <outfile xil_pn:name="rotR2.vhd"/>
+      <outfile xil_pn:name="sbox_0.vhd"/>
+      <outfile xil_pn:name="sbox_1.vhd"/>
+      <outfile xil_pn:name="sbox_2.vhd"/>
+      <outfile xil_pn:name="sbox_3.vhd"/>
+      <outfile xil_pn:name="sbox_4.vhd"/>
+      <outfile xil_pn:name="sbox_5.vhd"/>
+      <outfile xil_pn:name="sbox_6.vhd"/>
+      <outfile xil_pn:name="sbox_7.vhd"/>
+      <outfile xil_pn:name="sboxes.vhd"/>
+      <outfile xil_pn:name="syncReg.vhd"/>
+      <outfile xil_pn:name="test_DES_Decoder.vhd"/>
+      <outfile xil_pn:name="xor48.vhd"/>
+      <outfile xil_pn:name="xorLR.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357749" xil_pn:in_ck="-7598277839480664607" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3300051984083096122" xil_pn:start_ts="1530357744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1530357750" xil_pn:in_ck="-68612368262370270" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7981486485563573671" xil_pn:start_ts="1530357749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

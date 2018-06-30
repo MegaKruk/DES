@@ -1,0 +1,2 @@
+vhdtdtfi -lib work revIP.vhd -prj DES -o revIP.spl -module revIP -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e revIP.spl {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/revIP.sym} 
