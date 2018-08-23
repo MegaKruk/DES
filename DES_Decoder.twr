@@ -1,0 +1,260 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml DES_Decoder.twx DES_Decoder.ncd -o DES_Decoder.twr
+DES_Decoder.pcf -ucf GenIO.ucf
+
+Design file:              DES_Decoder.ncd
+Physical constraint file: DES_Decoder.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk_50MHz
+--------------+------------+------------+------------------+--------+
+              |Max Setup to|Max Hold to |                  | Clock  |
+Source        | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------------+--------+
+ciphertext<0> |    7.962(R)|    1.184(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<1> |    0.385(R)|    0.893(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<2> |    5.335(R)|    0.746(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<3> |   -0.201(R)|    1.372(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<4> |    5.816(R)|    1.129(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<5> |    0.214(R)|    1.031(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<6> |    6.791(R)|    1.403(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<7> |    0.399(R)|    0.884(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<8> |    7.965(R)|    1.699(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<9> |    0.595(R)|    0.725(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<10>|    6.581(R)|    1.199(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<11>|   -0.404(R)|    1.535(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<12>|    5.481(R)|    1.009(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<13>|   -0.057(R)|    1.247(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<14>|    5.329(R)|    1.479(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<15>|    0.190(R)|    1.052(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<16>|    8.253(R)|    0.967(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<17>|   -0.411(R)|    1.534(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<18>|    5.925(R)|    1.527(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<19>|    0.756(R)|    0.605(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<20>|    5.484(R)|    1.399(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<21>|    0.028(R)|    1.187(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<22>|    5.390(R)|    1.475(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<23>|    1.022(R)|    0.399(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<24>|    8.035(R)|    0.519(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<25>|    0.171(R)|    1.068(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<26>|    6.582(R)|    1.436(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<27>|    0.844(R)|    0.535(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<28>|    5.937(R)|    0.075(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<29>|    0.112(R)|    1.120(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<30>|    5.802(R)|    1.192(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<31>|    1.532(R)|   -0.009(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<32>|    9.687(R)|    1.671(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<33>|    0.714(R)|    0.633(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<34>|    6.804(R)|    0.550(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<35>|    1.350(R)|    0.122(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<36>|    5.431(R)|    0.696(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<37>|    0.121(R)|    1.111(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<38>|    6.001(R)|   -0.157(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<39>|    1.932(R)|   -0.330(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<40>|    8.748(R)|    1.855(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<41>|    1.097(R)|    0.327(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<42>|    6.673(R)|    0.135(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<43>|    1.459(R)|    0.034(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<44>|    6.313(R)|    0.613(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<45>|    0.730(R)|    0.624(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<46>|    7.029(R)|    0.643(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<47>|    1.733(R)|   -0.170(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<48>|    5.520(R)|    1.213(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<49>|    0.594(R)|    0.731(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<50>|    6.357(R)|    1.169(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<51>|    1.445(R)|    0.049(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<52>|    4.944(R)|    0.806(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<53>|    0.683(R)|    0.663(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<54>|    5.956(R)|    1.418(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<55>|    0.947(R)|    0.448(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<56>|    6.918(R)|    0.279(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<57>|    0.995(R)|    0.410(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<58>|   10.155(R)|    0.792(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<59>|    1.838(R)|   -0.259(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<60>|   10.187(R)|    0.986(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<61>|    0.813(R)|    0.559(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<62>|    7.696(R)|    0.851(R)|Clk_50MHz_BUFGP   |   0.000|
+ciphertext<63>|    0.757(R)|    0.600(R)|Clk_50MHz_BUFGP   |   0.000|
+key<0>        |    6.718(R)|   -0.580(R)|Clk_50MHz_BUFGP   |   0.000|
+key<1>        |    5.828(R)|   -0.650(R)|Clk_50MHz_BUFGP   |   0.000|
+key<2>        |    8.074(R)|   -0.381(R)|Clk_50MHz_BUFGP   |   0.000|
+key<3>        |    7.938(R)|   -0.789(R)|Clk_50MHz_BUFGP   |   0.000|
+key<4>        |    4.949(R)|    0.496(R)|Clk_50MHz_BUFGP   |   0.000|
+key<5>        |    6.160(R)|   -0.119(R)|Clk_50MHz_BUFGP   |   0.000|
+key<6>        |    6.204(R)|    0.062(R)|Clk_50MHz_BUFGP   |   0.000|
+key<8>        |    6.464(R)|   -0.002(R)|Clk_50MHz_BUFGP   |   0.000|
+key<9>        |    6.995(R)|   -0.215(R)|Clk_50MHz_BUFGP   |   0.000|
+key<10>       |    6.945(R)|   -0.111(R)|Clk_50MHz_BUFGP   |   0.000|
+key<11>       |    6.060(R)|    0.074(R)|Clk_50MHz_BUFGP   |   0.000|
+key<12>       |    5.305(R)|    0.326(R)|Clk_50MHz_BUFGP   |   0.000|
+key<13>       |    1.031(R)|    0.381(R)|Clk_50MHz_BUFGP   |   0.000|
+key<14>       |    0.626(R)|    0.714(R)|Clk_50MHz_BUFGP   |   0.000|
+key<16>       |    8.129(R)|    0.724(R)|Clk_50MHz_BUFGP   |   0.000|
+key<17>       |    6.811(R)|   -0.171(R)|Clk_50MHz_BUFGP   |   0.000|
+key<18>       |    0.122(R)|    1.115(R)|Clk_50MHz_BUFGP   |   0.000|
+key<19>       |    0.766(R)|    0.591(R)|Clk_50MHz_BUFGP   |   0.000|
+key<20>       |    6.222(R)|    0.399(R)|Clk_50MHz_BUFGP   |   0.000|
+key<21>       |    5.175(R)|    0.717(R)|Clk_50MHz_BUFGP   |   0.000|
+key<22>       |    5.648(R)|    0.108(R)|Clk_50MHz_BUFGP   |   0.000|
+key<24>       |    6.313(R)|    0.194(R)|Clk_50MHz_BUFGP   |   0.000|
+key<25>       |    6.045(R)|   -0.540(R)|Clk_50MHz_BUFGP   |   0.000|
+key<26>       |    4.895(R)|   -0.664(R)|Clk_50MHz_BUFGP   |   0.000|
+key<27>       |    5.785(R)|    0.574(R)|Clk_50MHz_BUFGP   |   0.000|
+key<28>       |    5.100(R)|    0.587(R)|Clk_50MHz_BUFGP   |   0.000|
+key<29>       |    4.587(R)|   -1.133(R)|Clk_50MHz_BUFGP   |   0.000|
+key<30>       |    4.675(R)|    0.171(R)|Clk_50MHz_BUFGP   |   0.000|
+key<32>       |    6.717(R)|    0.820(R)|Clk_50MHz_BUFGP   |   0.000|
+key<33>       |    8.170(R)|    0.650(R)|Clk_50MHz_BUFGP   |   0.000|
+key<34>       |    5.249(R)|    1.326(R)|Clk_50MHz_BUFGP   |   0.000|
+key<35>       |    7.234(R)|    1.075(R)|Clk_50MHz_BUFGP   |   0.000|
+key<36>       |    6.506(R)|    0.240(R)|Clk_50MHz_BUFGP   |   0.000|
+key<37>       |    3.922(R)|   -0.174(R)|Clk_50MHz_BUFGP   |   0.000|
+key<38>       |    6.107(R)|    0.089(R)|Clk_50MHz_BUFGP   |   0.000|
+key<40>       |    6.861(R)|   -0.200(R)|Clk_50MHz_BUFGP   |   0.000|
+key<41>       |    6.241(R)|    0.479(R)|Clk_50MHz_BUFGP   |   0.000|
+key<42>       |    5.605(R)|    0.788(R)|Clk_50MHz_BUFGP   |   0.000|
+key<43>       |    4.211(R)|    1.299(R)|Clk_50MHz_BUFGP   |   0.000|
+key<44>       |    3.722(R)|   -0.270(R)|Clk_50MHz_BUFGP   |   0.000|
+key<45>       |    5.706(R)|    1.738(R)|Clk_50MHz_BUFGP   |   0.000|
+key<46>       |    4.394(R)|    1.492(R)|Clk_50MHz_BUFGP   |   0.000|
+key<48>       |    6.352(R)|    1.395(R)|Clk_50MHz_BUFGP   |   0.000|
+key<49>       |    9.322(R)|    1.127(R)|Clk_50MHz_BUFGP   |   0.000|
+key<50>       |    0.108(R)|    1.115(R)|Clk_50MHz_BUFGP   |   0.000|
+key<51>       |    4.840(R)|    0.113(R)|Clk_50MHz_BUFGP   |   0.000|
+key<52>       |    3.782(R)|    1.343(R)|Clk_50MHz_BUFGP   |   0.000|
+key<53>       |   -0.367(R)|    1.503(R)|Clk_50MHz_BUFGP   |   0.000|
+key<54>       |    3.917(R)|    1.679(R)|Clk_50MHz_BUFGP   |   0.000|
+key<56>       |    4.564(R)|    0.841(R)|Clk_50MHz_BUFGP   |   0.000|
+key<57>       |   -0.309(R)|    1.453(R)|Clk_50MHz_BUFGP   |   0.000|
+key<58>       |    3.540(R)|    0.784(R)|Clk_50MHz_BUFGP   |   0.000|
+key<59>       |    0.227(R)|    1.023(R)|Clk_50MHz_BUFGP   |   0.000|
+key<60>       |    4.754(R)|    1.890(R)|Clk_50MHz_BUFGP   |   0.000|
+key<61>       |    5.174(R)|    1.763(R)|Clk_50MHz_BUFGP   |   0.000|
+key<62>       |    2.834(R)|    0.390(R)|Clk_50MHz_BUFGP   |   0.000|
+--------------+------------+------------+------------------+--------+
+
+Clock Clk_50MHz to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+plaintext<0> |    7.894(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<1> |    7.908(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<2> |    8.146(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<3> |    8.584(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<4> |    7.661(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<5> |    7.545(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<6> |    7.799(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<7> |    7.950(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<8> |    7.395(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<9> |    7.682(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<10>|    6.879(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<11>|    8.205(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<12>|    7.945(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<13>|    7.381(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<14>|    7.351(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<15>|    7.417(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<16>|    8.183(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<17>|    8.110(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<18>|    7.357(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<19>|    7.596(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<20>|    6.890(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<21>|    7.369(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<22>|    6.890(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<23>|    7.401(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<24>|    7.690(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<25>|    8.303(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<26>|    7.179(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<27>|    7.659(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<28>|    7.726(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<29>|    7.672(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<30>|    7.477(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<31>|    7.126(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<32>|    7.365(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<33>|    7.415(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<34>|    7.369(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<35>|    7.362(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<36>|    7.588(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<37>|    7.130(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<38>|    7.440(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<39>|    7.716(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<40>|    6.897(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<41>|    7.482(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<42>|    6.880(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<43>|    7.938(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<44>|    7.663(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<45>|    7.430(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<46>|    7.399(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<47>|    7.628(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<48>|    7.602(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<49>|    7.621(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<50>|    8.469(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<51>|    7.423(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<52>|    7.446(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<53>|    7.135(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<54>|    6.863(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<55>|    8.063(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<56>|    7.739(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<57>|    8.565(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<58>|    7.934(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<59>|    8.036(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<60>|    7.477(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<61>|    7.428(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<62>|    6.869(R)|Clk_50MHz_BUFGP   |   0.000|
+plaintext<63>|    7.629(R)|Clk_50MHz_BUFGP   |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Clk_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk_50MHz      |    6.462|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Aug 21 23:10:08 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4597 MB
+
+
+

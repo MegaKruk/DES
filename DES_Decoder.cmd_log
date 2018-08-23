@@ -3,5 +3,21 @@ sch2sym -intstyle ise -family spartan3e -refsym DES_Decoder {C:/Users/Filicz/Doc
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DES_Decoder_drc.vhf -w {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.sch} 
 sch2sym -intstyle ise -family spartan3e -refsym DES_Decoder {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.sch} {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.sym} 
 xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
-xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
-xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+netgen -intstyle ise -ar Structure -tm DES_Decoder -w -dir netgen/synthesis -ofmt vhdl -sim DES_Decoder.ngc DES_Decoder_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Decoder.ngc" DES_Decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DES_Decoder_map.ncd DES_Decoder.ngd DES_Decoder.pcf 
+par -w -intstyle ise -ol high -t 1 DES_Decoder_map.ncd DES_Decoder.ncd DES_Decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DES_Decoder.twx DES_Decoder.ncd -o DES_Decoder.twr DES_Decoder.pcf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Decoder.ngc" DES_Decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DES_Decoder_map.ncd DES_Decoder.ngd DES_Decoder.pcf 
+par -w -intstyle ise -ol high -t 1 DES_Decoder_map.ncd DES_Decoder.ncd DES_Decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DES_Decoder.twx DES_Decoder.ncd -o DES_Decoder.twr DES_Decoder.pcf -ucf GenIO.ucf 
+netgen -intstyle ise -s 5  -pcf DES_Decoder.pcf -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim DES_Decoder.ncd DES_Decoder_timesim.vhd 
+netgen -intstyle ise -s 5  -pcf DES_Decoder.pcf -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netgen/map -ofmt vhdl -sim DES_Decoder_map.ncd DES_Decoder_map.vhd 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netgen/translate -ofmt vhdl -sim DES_Decoder.ngd DES_Decoder_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Decoder.ngc" DES_Decoder.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netgen/translate -ofmt vhdl -sim DES_Decoder.ngd DES_Decoder_translate.vhd 

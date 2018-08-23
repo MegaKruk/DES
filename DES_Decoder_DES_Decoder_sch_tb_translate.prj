@@ -1,0 +1,2 @@
+vhdl work "netgen/translate/DES_Decoder_translate.vhd"
+vhdl work "test_DES_Decoder.vhd"

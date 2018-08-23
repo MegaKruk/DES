@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder_DES_Decoder_sch_tb_isim_beh.exe" -prj "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder_DES_Decoder_sch_tb_beh.prj" "work.DES_Decoder_DES_Decoder_sch_tb" 
+-intstyle "ise" -incremental -o "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_cmpPT_isim_beh.exe" -prj "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_cmpPT_beh.prj" "work.test_cmpPT" 

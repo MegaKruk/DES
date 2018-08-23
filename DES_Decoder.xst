@@ -5,7 +5,7 @@ run
 -ifmt mixed
 -ofn DES_Decoder
 -ofmt NGC
--p xc3s500e-5-vq100
+-p xc3s500e-5-fg320
 -top DES_Decoder
 -opt_mode Speed
 -opt_level 1

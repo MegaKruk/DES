@@ -1,0 +1,2 @@
+vhdl work "netgen/par/DES_Decoder_timesim.vhd"
+vhdl work "test_DES_Decoder.vhd"
