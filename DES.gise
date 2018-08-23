@@ -54,14 +54,12 @@
     <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_par.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_par.wdb"/>
     <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_translate.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_translate.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_map.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_par.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_map.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_par.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_translate.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_translate.prj"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="DES_Decoder_drc.vhf"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="DES_Decoder_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DES_Decoder_map.map" xil_pn:subbranch="Map"/>
@@ -141,6 +139,9 @@
       <branch xil_pn:name="BehavioralSim"/>
       <branch xil_pn:name="PostTranslateSimulation"/>
     </file>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="keyGen.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="keyGen.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="keyGen.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
     <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/DES_Decoder_map.nlf"/>
     <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/DES_Decoder_map.sdf"/>
@@ -226,12 +227,17 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_PC1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_PC2_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_PC2_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_cmpPT_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_cmpPT_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_cmpPT_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_cmpPT_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_expP_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_expP_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_keyGen_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_keyGen_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_keyGen_isim_beh.wdb"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_keyGen_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_keyGen_isim_translate.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_keyGen_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_keyGen_translate.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_pblockP_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_pblockP_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_revIP_isim_beh.exe"/>
@@ -274,7 +280,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534981444" xil_pn:in_ck="7235726739843853762" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1534981444">
+    <transform xil_pn:end_ts="1535062488" xil_pn:in_ck="-1319460622720202073" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1535062488">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="IP.vhd"/>
@@ -282,6 +288,7 @@
       <outfile xil_pn:name="PC2.vhd"/>
       <outfile xil_pn:name="cmpPT.vhd"/>
       <outfile xil_pn:name="expP.vhd"/>
+      <outfile xil_pn:name="keyGen.vhd"/>
       <outfile xil_pn:name="pblockP.vhd"/>
       <outfile xil_pn:name="revIP.vhd"/>
       <outfile xil_pn:name="rotR1.vhd"/>
@@ -303,6 +310,7 @@
       <outfile xil_pn:name="test_PC2.vhd"/>
       <outfile xil_pn:name="test_cmpPT.vhd"/>
       <outfile xil_pn:name="test_expP.vhd"/>
+      <outfile xil_pn:name="test_keyGen.vhd"/>
       <outfile xil_pn:name="test_pblockP.vhd"/>
       <outfile xil_pn:name="test_revIP.vhd"/>
       <outfile xil_pn:name="test_rotR1.vhd"/>
@@ -314,11 +322,11 @@
       <outfile xil_pn:name="xor48.vhd"/>
       <outfile xil_pn:name="xorLR.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1534981297" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5195030823842997454" xil_pn:start_ts="1534981297">
+    <transform xil_pn:end_ts="1535060306" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6205342043778001103" xil_pn:start_ts="1535060306">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534981299" xil_pn:in_ck="-7644595406339715787" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3306435138467710708" xil_pn:start_ts="1534981297">
+    <transform xil_pn:end_ts="1535060308" xil_pn:in_ck="-7644595406339715787" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7141571794785803443" xil_pn:start_ts="1535060306">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Decoder.vhf"/>
@@ -328,7 +336,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534981447" xil_pn:in_ck="-8895172001353607901" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1534981447">
+    <transform xil_pn:end_ts="1535062488" xil_pn:in_ck="6903379431483928872" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1535062488">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Decoder.vhf"/>
@@ -338,6 +346,7 @@
       <outfile xil_pn:name="PC2.vhd"/>
       <outfile xil_pn:name="cmpPT.vhd"/>
       <outfile xil_pn:name="expP.vhd"/>
+      <outfile xil_pn:name="keyGen.vhd"/>
       <outfile xil_pn:name="pblockP.vhd"/>
       <outfile xil_pn:name="revIP.vhd"/>
       <outfile xil_pn:name="rotR1.vhd"/>
@@ -359,6 +368,7 @@
       <outfile xil_pn:name="test_PC2.vhd"/>
       <outfile xil_pn:name="test_cmpPT.vhd"/>
       <outfile xil_pn:name="test_expP.vhd"/>
+      <outfile xil_pn:name="test_keyGen.vhd"/>
       <outfile xil_pn:name="test_pblockP.vhd"/>
       <outfile xil_pn:name="test_revIP.vhd"/>
       <outfile xil_pn:name="test_rotR1.vhd"/>
@@ -370,7 +380,7 @@
       <outfile xil_pn:name="xor48.vhd"/>
       <outfile xil_pn:name="xorLR.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1534981451" xil_pn:in_ck="-8895172001353607901" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6362278522443119629" xil_pn:start_ts="1534981447">
+    <transform xil_pn:end_ts="1535062493" xil_pn:in_ck="6903379431483928872" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4700213297102402901" xil_pn:start_ts="1535062488">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -378,18 +388,18 @@
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_cmpPT_beh.prj"/>
-      <outfile xil_pn:name="test_cmpPT_isim_beh.exe"/>
+      <outfile xil_pn:name="test_keyGen_beh.prj"/>
+      <outfile xil_pn:name="test_keyGen_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1534981451" xil_pn:in_ck="-2569371906286767188" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3554709526823025894" xil_pn:start_ts="1534981451">
+    <transform xil_pn:end_ts="1535062493" xil_pn:in_ck="-9083367158541725283" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2885251910717848120" xil_pn:start_ts="1535062493">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_cmpPT_isim_beh.wdb"/>
+      <outfile xil_pn:name="test_keyGen_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1534885531" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1534885531">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -421,13 +431,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534979524" xil_pn:in_ck="-984663804378170175" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8259005019728613309" xil_pn:start_ts="1534979478">
+    <transform xil_pn:end_ts="1535061743" xil_pn:in_ck="6910088853366917160" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8259005019728613309" xil_pn:start_ts="1535061708">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
@@ -446,7 +455,6 @@
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_map.prj"/>
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_par.prj"/>
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_stx_translate.prj"/>
-      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_translate.prj"/>
       <outfile xil_pn:name="DES_Decoder_vhdl.prj"/>
       <outfile xil_pn:name="DES_Decoder_xst.xrpt"/>
       <outfile xil_pn:name="Feistel.ngr"/>
@@ -458,7 +466,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534979537" xil_pn:in_ck="8649665882377526919" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7153983032077025460" xil_pn:start_ts="1534979524">
+    <transform xil_pn:end_ts="1535061755" xil_pn:in_ck="8649665882377526919" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7153983032077025460" xil_pn:start_ts="1535061743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -527,6 +535,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_par.exe"/>
@@ -579,6 +588,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_map.exe"/>
@@ -595,7 +605,7 @@
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_map.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
-    <transform xil_pn:end_ts="1534979542" xil_pn:in_ck="3129290476258171672" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-6890761057938329166" xil_pn:start_ts="1534979537">
+    <transform xil_pn:end_ts="1535061760" xil_pn:in_ck="3129290476258171672" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-6890761057938329166" xil_pn:start_ts="1535061755">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -603,20 +613,23 @@
       <outfile xil_pn:name="netgen/translate/DES_Decoder_translate.nlf"/>
       <outfile xil_pn:name="netgen/translate/DES_Decoder_translate.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1534979542" xil_pn:in_ck="-533841460720422250" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1534979542">
+    <transform xil_pn:end_ts="1535061760" xil_pn:in_ck="2239135927918960283" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1535061760">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="netgen/translate/DES_Decoder_translate.vhd"/>
       <outfile xil_pn:name="test_DES_Decoder.vhd"/>
       <outfile xil_pn:name="test_Feistel.vhd"/>
       <outfile xil_pn:name="test_IP.vhd"/>
       <outfile xil_pn:name="test_PC1.vhd"/>
       <outfile xil_pn:name="test_PC2.vhd"/>
+      <outfile xil_pn:name="test_cmpPT.vhd"/>
       <outfile xil_pn:name="test_expP.vhd"/>
+      <outfile xil_pn:name="test_keyGen.vhd"/>
       <outfile xil_pn:name="test_pblockP.vhd"/>
       <outfile xil_pn:name="test_revIP.vhd"/>
       <outfile xil_pn:name="test_rotR1.vhd"/>
@@ -626,28 +639,30 @@
       <outfile xil_pn:name="test_xor48.vhd"/>
       <outfile xil_pn:name="test_xorLR.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1534979557" xil_pn:in_ck="-533841460720422250" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="3808991797931887354" xil_pn:start_ts="1534979542">
+    <transform xil_pn:end_ts="1535061764" xil_pn:in_ck="2239135927918960283" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="-8236272046520597653" xil_pn:start_ts="1535061760">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_translate.exe"/>
-      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_translate.prj"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_keyGen_isim_translate.exe"/>
+      <outfile xil_pn:name="test_keyGen_translate.prj"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1534979558" xil_pn:in_ck="5488506408184644961" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="-2044251973610899508" xil_pn:start_ts="1534979557">
+    <transform xil_pn:end_ts="1535061765" xil_pn:in_ck="-7066982388947456783" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="-8256243642111020820" xil_pn:start_ts="1535061764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_translate.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_keyGen_isim_translate.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1530527989" xil_pn:in_ck="273643259304340329" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-2577731028055891081" xil_pn:start_ts="1530527985">
       <status xil_pn:value="AbortedRun"/>

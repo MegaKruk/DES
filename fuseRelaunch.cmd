@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_cmpPT_isim_beh.exe" -prj "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_cmpPT_beh.prj" "work.test_cmpPT" 
+-intstyle "ise" -incremental -o "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_keyGen_isim_beh.exe" -prj "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_keyGen_beh.prj" "work.test_keyGen" 

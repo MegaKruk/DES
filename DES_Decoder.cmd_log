@@ -21,3 +21,7 @@ netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netge
 xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Decoder.ngc" DES_Decoder.ngd  
 netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netgen/translate -ofmt vhdl -sim DES_Decoder.ngd DES_Decoder_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Decoder.ngc" DES_Decoder.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DES_Decoder -w -dir netgen/translate -ofmt vhdl -sim DES_Decoder.ngd DES_Decoder_translate.vhd 

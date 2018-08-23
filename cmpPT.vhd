@@ -32,8 +32,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity cmpPT is
 	 Port ( plaintext : in  STD_LOGIC_VECTOR (0 to 63);
 		expected : in  STD_LOGIC_VECTOR (0 to 63);
+		keyin : in  STD_LOGIC_VECTOR (0 to 63);
 		clk : in  STD_LOGIC;
-		result : out  STD_LOGIC);
+		result : out  STD_LOGIC;
+		keyout : out  STD_LOGIC_VECTOR (0 to 63));
 end cmpPT;
 
 architecture Behavioral of cmpPT is
@@ -44,6 +46,7 @@ process(clk)
 	result <= '0';
 	if (plaintext = expected) and (rising_edge(clk)) then
 		result <= '1';
+		keyout <= keyin;
 	end if;
 end process;
 
