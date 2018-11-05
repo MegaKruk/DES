@@ -1,0 +1,8 @@
+[Inputs]
+clk
+isfound
+=msgin[0:63]=
+[Outputs]
+=msgout[0:63]=
+=keyout[0:63]=
+[BiDir]

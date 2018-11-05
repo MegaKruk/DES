@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : DES_Decoder.vhf
--- /___/   /\     Timestamp : 06/30/2018 13:22:21
+-- /___/   /\     Timestamp : 10/24/2018 12:20:21
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" -w "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" -w "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.sch"
 --Design Name: DES_Decoder
 --Device: spartan3e
 --Purpose:

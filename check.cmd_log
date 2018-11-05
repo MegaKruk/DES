@@ -1,0 +1,10 @@
+vhdtdtfi -lib work check.vhd -prj DES -o check.spl -module check -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e check.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/check.sym} 
+vhdtdtfi -lib work check.vhd -prj DES -o check.spl -module check -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e check.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/check.sym} 
+vhdtdtfi -lib work check.vhd -prj DES -o check.spl -module check -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e check.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/check.sym} 
+vhdtdtfi -lib work check.vhd -prj DES -o check.spl -module check -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e check.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/check.sym} 
+vhdtdtfi -lib work check.vhd -prj DES -o check.spl -module check -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e check.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/check.sym} 

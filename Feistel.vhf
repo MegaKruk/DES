@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Feistel.vhf
--- /___/   /\     Timestamp : 06/30/2018 13:17:58
+-- /___/   /\     Timestamp : 10/24/2018 12:20:19
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.vhf" -w "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filip/Documents/workspace/ISE Projects/DES/Feistel.vhf" -w "C:/Users/Filip/Documents/workspace/ISE Projects/DES/Feistel.sch"
 --Design Name: Feistel
 --Device: spartan3e
 --Purpose:

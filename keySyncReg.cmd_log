@@ -1,0 +1,2 @@
+vhdtdtfi -lib work keySyncReg.vhd -prj DES -o keySyncReg.spl -module keySyncReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e keySyncReg.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keySyncReg.sym} 

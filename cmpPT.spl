@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=plaintext[0:63]=
+=expected[0:63]=
+=keyin[0:63]=
+[Outputs]
+isfound
+=keyout[0:63]=
+[BiDir]

@@ -34,18 +34,22 @@ entity cmpPT is
 		expected : in  STD_LOGIC_VECTOR (0 to 63);
 		keyin : in  STD_LOGIC_VECTOR (0 to 63);
 		clk : in  STD_LOGIC;
-		result : out  STD_LOGIC;
+		isfound : out  STD_LOGIC;
 		keyout : out  STD_LOGIC_VECTOR (0 to 63));
 end cmpPT;
 
 architecture Behavioral of cmpPT is
 
+signal foundcheck : STD_LOGIC := '0';
+
 begin
+
+isfound <= foundcheck; 
+
 process(clk)
 	begin
-	result <= '0';
-	if (plaintext = expected) and (rising_edge(clk)) then
-		result <= '1';
+	if (plaintext = expected) and (rising_edge(clk)) and (foundcheck /= '1') then
+		foundcheck <= '1';
 		keyout <= keyin;
 	end if;
 end process;

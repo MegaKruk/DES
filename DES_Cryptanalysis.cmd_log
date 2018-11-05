@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
