@@ -1,1 +1,28 @@
 xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "DES_Cryptanalysis.ngc" DES_Cryptanalysis.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ngd DES_Cryptanalysis.pcf 
+par -w -intstyle ise -ol high -t 1 DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ncd DES_Cryptanalysis.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DES_Cryptanalysis.twx DES_Cryptanalysis.ncd -o DES_Cryptanalysis.twr DES_Cryptanalysis.pcf 
+bitgen -intstyle ise -f DES_Cryptanalysis.ut DES_Cryptanalysis.ncd 
+xst -intstyle ise -ifn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "DES_Cryptanalysis.ngc" DES_Cryptanalysis.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ngd DES_Cryptanalysis.pcf 
+par -w -intstyle ise -ol high -t 1 DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ncd DES_Cryptanalysis.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DES_Cryptanalysis.twx DES_Cryptanalysis.ncd -o DES_Cryptanalysis.twr DES_Cryptanalysis.pcf 
+bitgen -intstyle ise -f DES_Cryptanalysis.ut DES_Cryptanalysis.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym DES_Cryptanalysis {C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DES_Cryptanalysis_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.sch} 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Cryptanalysis.ngc" DES_Cryptanalysis.ngd  
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Cryptanalysis.ngc" DES_Cryptanalysis.ngd  
+xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 "DES_Cryptanalysis.ngc" DES_Cryptanalysis.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ngd DES_Cryptanalysis.pcf 
+par -w -intstyle ise -ol high -t 1 DES_Cryptanalysis_map.ncd DES_Cryptanalysis.ncd DES_Cryptanalysis.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DES_Cryptanalysis.twx DES_Cryptanalysis.ncd -o DES_Cryptanalysis.twr DES_Cryptanalysis.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f DES_Cryptanalysis.ut DES_Cryptanalysis.ncd 

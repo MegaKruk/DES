@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : DES_Decoder.vhf
--- /___/   /\     Timestamp : 10/24/2018 12:20:21
+-- /___/   /\     Timestamp : 11/06/2018 14:27:15
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -98,7 +98,8 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity DES_Decoder is
-   port ( ciphertext : in    std_logic_vector (0 to 63); 
+   port ( CE         : in    std_logic; 
+          ciphertext : in    std_logic_vector (0 to 63); 
           Clk_50MHz  : in    std_logic; 
           key        : in    std_logic_vector (0 to 63); 
           plaintext  : out   std_logic_vector (0 to 63));
@@ -267,7 +268,8 @@ architecture BEHAVIORAL of DES_Decoder is
              leftOut     : out   std_logic_vector (0 to 31); 
              rightOut    : out   std_logic_vector (0 to 31); 
              leftkeyOut  : out   std_logic_vector (0 to 27); 
-             rightkeyOut : out   std_logic_vector (0 to 27));
+             rightkeyOut : out   std_logic_vector (0 to 27); 
+             CE          : in    std_logic);
    end component;
    
    component rotR1
@@ -309,7 +311,8 @@ begin
                 myoutput(0 to 47)=>XLXN_107(0 to 47));
    
    XLXI_12 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_118(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_117(0 to 27),
                 rightIn(0 to 31)=>XLXN_108(0 to 31),
@@ -347,7 +350,8 @@ begin
                 myoutput(0 to 27)=>XLXN_131(0 to 27));
    
    XLXI_19 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_122(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_131(0 to 27),
                 rightIn(0 to 31)=>XLXN_129(0 to 31),
@@ -396,7 +400,8 @@ begin
                 myoutput(0 to 47)=>XLXN_173(0 to 47));
    
    XLXI_47 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_132(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_176(0 to 27),
                 rightIn(0 to 31)=>XLXN_175(0 to 31),
@@ -426,7 +431,8 @@ begin
                 myoutput(0 to 47)=>XLXN_182(0 to 47));
    
    XLXI_52 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_169(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_185(0 to 27),
                 rightIn(0 to 31)=>XLXN_184(0 to 31),
@@ -456,7 +462,8 @@ begin
                 myoutput(0 to 47)=>XLXN_191(0 to 47));
    
    XLXI_57 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_178(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_330(0 to 27),
                 rightIn(0 to 31)=>XLXN_332(0 to 31),
@@ -486,7 +493,8 @@ begin
                 myoutput(0 to 47)=>XLXN_200(0 to 47));
    
    XLXI_62 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_187(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_203(0 to 27),
                 rightIn(0 to 31)=>XLXN_202(0 to 31),
@@ -508,7 +516,8 @@ begin
                 myoutput(0 to 47)=>XLXN_209(0 to 47));
    
    XLXI_67 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_196(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_212(0 to 27),
                 rightIn(0 to 31)=>XLXN_211(0 to 31),
@@ -530,7 +539,8 @@ begin
                 myoutput(0 to 47)=>XLXN_218(0 to 47));
    
    XLXI_72 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_205(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_221(0 to 27),
                 rightIn(0 to 31)=>XLXN_220(0 to 31),
@@ -560,7 +570,8 @@ begin
                 myoutput(0 to 47)=>XLXN_227(0 to 47));
    
    XLXI_79 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_214(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_230(0 to 27),
                 rightIn(0 to 31)=>XLXN_229(0 to 31),
@@ -606,7 +617,8 @@ begin
                 myoutput(0 to 47)=>XLXN_248(0 to 47));
    
    XLXI_93 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_223(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_337(0 to 27),
                 rightIn(0 to 31)=>XLXN_342(0 to 31),
@@ -636,7 +648,8 @@ begin
                 myoutput(0 to 47)=>XLXN_273(0 to 47));
    
    XLXI_108 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_244(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_284(0 to 27),
                 rightIn(0 to 31)=>XLXN_285(0 to 31),
@@ -666,7 +679,8 @@ begin
                 myoutput(0 to 47)=>XLXN_290(0 to 47));
    
    XLXI_113 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_269(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_293(0 to 27),
                 rightIn(0 to 31)=>XLXN_294(0 to 31),
@@ -696,7 +710,8 @@ begin
                 myoutput(0 to 47)=>XLXN_299(0 to 47));
    
    XLXI_118 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_286(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_302(0 to 27),
                 rightIn(0 to 31)=>XLXN_303(0 to 31),
@@ -718,7 +733,8 @@ begin
                 myoutput(0 to 47)=>XLXN_308(0 to 47));
    
    XLXI_123 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_295(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_311(0 to 27),
                 rightIn(0 to 31)=>XLXN_312(0 to 31),
@@ -748,7 +764,8 @@ begin
                 myoutput(0 to 47)=>XLXN_317(0 to 47));
    
    XLXI_130 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_363(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_352(0 to 27),
                 rightIn(0 to 31)=>XLXN_359(0 to 31),
@@ -759,7 +776,8 @@ begin
                 rightOut(0 to 31)=>XLXN_387(0 to 31));
    
    XLXI_135 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_389(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_322(0 to 27),
                 rightIn(0 to 31)=>XLXN_387(0 to 31),

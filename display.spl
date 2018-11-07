@@ -1,0 +1,9 @@
+[Inputs]
+clk
+isfound
+CE
+=foundkey[0:63]=
+[Outputs]
+=LCD_DI[0:63]=
+=LCD_B2[0:15]=
+[BiDir]

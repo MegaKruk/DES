@@ -1,35 +1,37 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
---> Parameter xsthdpdir set to C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xst
+--> Parameter xsthdpdir set to C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.vhd" in Library work.
-Entity <cmpPT> compiled.
-Entity <cmpPT> (Architecture <Behavioral>) compiled.
+WARNING:HDLParsers:3607 - Unit work/cmpPT is now defined in a different file.  It was defined in "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.vhd".
+WARNING:HDLParsers:3607 - Unit work/cmpPT/Behavioral is now defined in a different file.  It was defined in "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.vhd".
+Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.vhd" in Library work.
+Entity <cmppt> compiled.
+Entity <cmppt> (Architecture <behavioral>) compiled.
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.43 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> 
 
-Total memory usage is 4505388 kilobytes
+Total memory usage is 4505440 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

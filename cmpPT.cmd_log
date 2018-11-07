@@ -22,3 +22,5 @@ vhdtdtfi -lib work cmpPT.vhd -prj DES -o cmpPT.spl -module cmpPT -template C:/Xi
 spl2sym -intstyle ise -family spartan3e cmpPT.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.sym} 
 vhdtdtfi -lib work cmpPT.vhd -prj DES -o cmpPT.spl -module cmpPT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e cmpPT.spl {C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.sym} 
+vhdtdtfi -lib work cmpPT.vhd -prj DES -o cmpPT.spl -module cmpPT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cmpPT.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.sym} 

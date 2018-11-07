@@ -34,6 +34,7 @@ entity cmpPT is
 		expected : in  STD_LOGIC_VECTOR (0 to 63);
 		keyin : in  STD_LOGIC_VECTOR (0 to 63);
 		clk : in  STD_LOGIC;
+		CE : in  STD_LOGIC;
 		isfound : out  STD_LOGIC;
 		keyout : out  STD_LOGIC_VECTOR (0 to 63));
 end cmpPT;
@@ -48,7 +49,7 @@ isfound <= foundcheck;
 
 process(clk)
 	begin
-	if (plaintext = expected) and (rising_edge(clk)) and (foundcheck /= '1') then
+	if (rising_edge(clk)) and (plaintext = expected) and (foundcheck /= '1') and (CE = '1') then
 		foundcheck <= '1';
 		keyout <= keyin;
 	end if;

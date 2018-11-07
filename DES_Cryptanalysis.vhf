@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : DES_Cryptanalysis.vhf
--- /___/   /\     Timestamp : 11/06/2018 00:11:51
+-- /___/   /\     Timestamp : 11/06/2018 15:53:42
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" -w "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" -w "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.sch"
 --Design Name: DES_Cryptanalysis
 --Device: spartan3e
 --Purpose:
@@ -26,7 +26,8 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity keyBuffer_MUSER_DES_Cryptanalysis is
-   port ( Clk_50MHz : in    std_logic; 
+   port ( CE        : in    std_logic; 
+          Clk_50MHz : in    std_logic; 
           keyIn     : in    std_logic_vector (0 to 63); 
           keyOut    : out   std_logic_vector (0 to 63));
 end keyBuffer_MUSER_DES_Cryptanalysis;
@@ -50,87 +51,104 @@ architecture BEHAVIORAL of keyBuffer_MUSER_DES_Cryptanalysis is
    component keySyncReg
       port ( clk    : in    std_logic; 
              keyIn  : in    std_logic_vector (0 to 63); 
-             keyOut : out   std_logic_vector (0 to 63));
+             keyOut : out   std_logic_vector (0 to 63); 
+             CE     : in    std_logic);
    end component;
    
 begin
    XLXI_1 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>keyIn(0 to 63),
                 keyOut(0 to 63)=>XLXN_4(0 to 63));
    
    XLXI_2 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_4(0 to 63),
                 keyOut(0 to 63)=>XLXN_5(0 to 63));
    
    XLXI_4 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_5(0 to 63),
                 keyOut(0 to 63)=>XLXN_6(0 to 63));
    
    XLXI_5 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_6(0 to 63),
                 keyOut(0 to 63)=>XLXN_9(0 to 63));
    
    XLXI_6 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_9(0 to 63),
                 keyOut(0 to 63)=>XLXN_10(0 to 63));
    
    XLXI_7 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_10(0 to 63),
                 keyOut(0 to 63)=>XLXN_11(0 to 63));
    
    XLXI_8 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_11(0 to 63),
                 keyOut(0 to 63)=>XLXN_13(0 to 63));
    
    XLXI_9 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_13(0 to 63),
                 keyOut(0 to 63)=>XLXN_14(0 to 63));
    
    XLXI_10 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_14(0 to 63),
                 keyOut(0 to 63)=>XLXN_15(0 to 63));
    
    XLXI_12 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_15(0 to 63),
                 keyOut(0 to 63)=>XLXN_16(0 to 63));
    
    XLXI_13 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_16(0 to 63),
                 keyOut(0 to 63)=>XLXN_17(0 to 63));
    
    XLXI_14 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_17(0 to 63),
                 keyOut(0 to 63)=>XLXN_18(0 to 63));
    
    XLXI_15 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_20(0 to 63),
                 keyOut(0 to 63)=>XLXN_21(0 to 63));
    
    XLXI_16 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_21(0 to 63),
                 keyOut(0 to 63)=>XLXN_56(0 to 63));
    
    XLXI_18 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_18(0 to 63),
                 keyOut(0 to 63)=>XLXN_20(0 to 63));
    
    XLXI_19 : keySyncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 keyIn(0 to 63)=>XLXN_56(0 to 63),
                 keyOut(0 to 63)=>keyOut(0 to 63));
    
@@ -217,7 +235,8 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity DES_Decoder_MUSER_DES_Cryptanalysis is
-   port ( ciphertext : in    std_logic_vector (0 to 63); 
+   port ( CE         : in    std_logic; 
+          ciphertext : in    std_logic_vector (0 to 63); 
           Clk_50MHz  : in    std_logic; 
           key        : in    std_logic_vector (0 to 63); 
           plaintext  : out   std_logic_vector (0 to 63));
@@ -386,7 +405,8 @@ architecture BEHAVIORAL of DES_Decoder_MUSER_DES_Cryptanalysis is
              leftOut     : out   std_logic_vector (0 to 31); 
              rightOut    : out   std_logic_vector (0 to 31); 
              leftkeyOut  : out   std_logic_vector (0 to 27); 
-             rightkeyOut : out   std_logic_vector (0 to 27));
+             rightkeyOut : out   std_logic_vector (0 to 27); 
+             CE          : in    std_logic);
    end component;
    
    component rotR1
@@ -428,7 +448,8 @@ begin
                 myoutput(0 to 47)=>XLXN_107(0 to 47));
    
    XLXI_12 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_118(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_117(0 to 27),
                 rightIn(0 to 31)=>XLXN_108(0 to 31),
@@ -466,7 +487,8 @@ begin
                 myoutput(0 to 27)=>XLXN_131(0 to 27));
    
    XLXI_19 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_122(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_131(0 to 27),
                 rightIn(0 to 31)=>XLXN_129(0 to 31),
@@ -515,7 +537,8 @@ begin
                 myoutput(0 to 47)=>XLXN_173(0 to 47));
    
    XLXI_47 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_132(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_176(0 to 27),
                 rightIn(0 to 31)=>XLXN_175(0 to 31),
@@ -545,7 +568,8 @@ begin
                 myoutput(0 to 47)=>XLXN_182(0 to 47));
    
    XLXI_52 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_169(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_185(0 to 27),
                 rightIn(0 to 31)=>XLXN_184(0 to 31),
@@ -575,7 +599,8 @@ begin
                 myoutput(0 to 47)=>XLXN_191(0 to 47));
    
    XLXI_57 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_178(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_330(0 to 27),
                 rightIn(0 to 31)=>XLXN_332(0 to 31),
@@ -605,7 +630,8 @@ begin
                 myoutput(0 to 47)=>XLXN_200(0 to 47));
    
    XLXI_62 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_187(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_203(0 to 27),
                 rightIn(0 to 31)=>XLXN_202(0 to 31),
@@ -627,7 +653,8 @@ begin
                 myoutput(0 to 47)=>XLXN_209(0 to 47));
    
    XLXI_67 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_196(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_212(0 to 27),
                 rightIn(0 to 31)=>XLXN_211(0 to 31),
@@ -649,7 +676,8 @@ begin
                 myoutput(0 to 47)=>XLXN_218(0 to 47));
    
    XLXI_72 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_205(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_221(0 to 27),
                 rightIn(0 to 31)=>XLXN_220(0 to 31),
@@ -679,7 +707,8 @@ begin
                 myoutput(0 to 47)=>XLXN_227(0 to 47));
    
    XLXI_79 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_214(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_230(0 to 27),
                 rightIn(0 to 31)=>XLXN_229(0 to 31),
@@ -725,7 +754,8 @@ begin
                 myoutput(0 to 47)=>XLXN_248(0 to 47));
    
    XLXI_93 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_223(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_337(0 to 27),
                 rightIn(0 to 31)=>XLXN_342(0 to 31),
@@ -755,7 +785,8 @@ begin
                 myoutput(0 to 47)=>XLXN_273(0 to 47));
    
    XLXI_108 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_244(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_284(0 to 27),
                 rightIn(0 to 31)=>XLXN_285(0 to 31),
@@ -785,7 +816,8 @@ begin
                 myoutput(0 to 47)=>XLXN_290(0 to 47));
    
    XLXI_113 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_269(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_293(0 to 27),
                 rightIn(0 to 31)=>XLXN_294(0 to 31),
@@ -815,7 +847,8 @@ begin
                 myoutput(0 to 47)=>XLXN_299(0 to 47));
    
    XLXI_118 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_286(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_302(0 to 27),
                 rightIn(0 to 31)=>XLXN_303(0 to 31),
@@ -837,7 +870,8 @@ begin
                 myoutput(0 to 47)=>XLXN_308(0 to 47));
    
    XLXI_123 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_295(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_311(0 to 27),
                 rightIn(0 to 31)=>XLXN_312(0 to 31),
@@ -867,7 +901,8 @@ begin
                 myoutput(0 to 47)=>XLXN_317(0 to 47));
    
    XLXI_130 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_363(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_352(0 to 27),
                 rightIn(0 to 31)=>XLXN_359(0 to 31),
@@ -878,7 +913,8 @@ begin
                 rightOut(0 to 31)=>XLXN_387(0 to 31));
    
    XLXI_135 : syncReg
-      port map (clk=>Clk_50MHz,
+      port map (CE=>CE,
+                clk=>Clk_50MHz,
                 leftIn(0 to 31)=>XLXN_389(0 to 31),
                 leftkeyIn(0 to 27)=>XLXN_322(0 to 27),
                 rightIn(0 to 31)=>XLXN_387(0 to 31),
@@ -904,40 +940,52 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity DES_Cryptanalysis is
-   port ( ciphertext : in    std_logic_vector (0 to 63); 
-          Clk_50MHz  : in    std_logic; 
-          expected   : in    std_logic_vector (0 to 63); 
-          foundkey   : out   std_logic_vector (0 to 63); 
-          isfound    : out   std_logic; 
-          keyout     : out   std_logic_vector (0 to 63); 
-          plaintext  : out   std_logic_vector (0 to 63));
+   port ( Clk_50MHz : in    std_logic; 
+          PS2_Clk   : in    std_logic; 
+          PS2_Data  : in    std_logic; 
+          Reset     : in    std_logic; 
+          datardy1  : out   std_logic; 
+          datardy2  : out   std_logic; 
+          isfound   : out   std_logic; 
+          LCD_E     : out   std_logic; 
+          LCD_RS    : out   std_logic; 
+          LCD_RW    : out   std_logic; 
+          led4      : out   std_logic; 
+          led5      : out   std_logic; 
+          led6      : out   std_logic; 
+          led7      : out   std_logic; 
+          SF_CE     : out   std_logic; 
+          typing    : out   std_logic; 
+          LCD_D     : inout std_logic_vector (3 downto 0));
 end DES_Cryptanalysis;
 
 architecture BEHAVIORAL of DES_Cryptanalysis is
-   signal msgout          : std_logic_vector (0 to 63);
-   signal XLXN_25         : std_logic_vector (0 to 63);
-   signal plaintext_DUMMY : std_logic_vector (0 to 63);
-   signal isfound_DUMMY   : std_logic;
-   signal keyout_DUMMY    : std_logic_vector (0 to 63);
+   attribute BOX_TYPE   : string ;
+   signal keyout         : std_logic_vector (0 to 63);
+   signal plaintext      : std_logic_vector (0 to 63);
+   signal XLXN_57        : std_logic_vector (0 to 63);
+   signal XLXN_64        : std_logic_vector (0 to 63);
+   signal XLXN_65        : std_logic_vector (0 to 63);
+   signal XLXN_72        : std_logic;
+   signal XLXN_73        : std_logic;
+   signal XLXN_76        : std_logic;
+   signal XLXN_77        : std_logic_vector (7 downto 0);
+   signal XLXN_99        : std_logic_vector (0 to 15);
+   signal XLXN_100       : std_logic_vector (0 to 63);
+   signal XLXN_101       : std_logic_vector (15 downto 0);
+   signal XLXN_102       : std_logic_vector (63 downto 0);
+   signal XLXN_107       : std_logic;
+   signal XLXN_109       : std_logic_vector (0 to 63);
+   signal XLXN_111       : std_logic_vector (0 to 63);
+   signal datardy1_DUMMY : std_logic;
+   signal datardy2_DUMMY : std_logic;
+   signal isfound_DUMMY  : std_logic;
    component DES_Decoder_MUSER_DES_Cryptanalysis
       port ( ciphertext : in    std_logic_vector (0 to 63); 
              key        : in    std_logic_vector (0 to 63); 
+             CE         : in    std_logic; 
              Clk_50MHz  : in    std_logic; 
              plaintext  : out   std_logic_vector (0 to 63));
-   end component;
-   
-   component keyGen
-      port ( clk     : in    std_logic; 
-             isfound : in    std_logic; 
-             msgin   : in    std_logic_vector (0 to 63); 
-             msgout  : out   std_logic_vector (0 to 63); 
-             keyout  : out   std_logic_vector (0 to 63));
-   end component;
-   
-   component keyBuffer_MUSER_DES_Cryptanalysis
-      port ( keyIn     : in    std_logic_vector (0 to 63); 
-             Clk_50MHz : in    std_logic; 
-             keyOut    : out   std_logic_vector (0 to 63));
    end component;
    
    component cmpPT
@@ -946,38 +994,175 @@ architecture BEHAVIORAL of DES_Cryptanalysis is
              expected  : in    std_logic_vector (0 to 63); 
              keyin     : in    std_logic_vector (0 to 63); 
              isfound   : out   std_logic; 
-             keyout    : out   std_logic_vector (0 to 63));
+             keyout    : out   std_logic_vector (0 to 63); 
+             CE        : in    std_logic);
+   end component;
+   
+   component LCD2x64
+      port ( Line1     : in    std_logic_vector (63 downto 0); 
+             Blank1    : in    std_logic_vector (15 downto 0); 
+             Line2     : in    std_logic_vector (63 downto 0); 
+             Blank2    : in    std_logic_vector (15 downto 0); 
+             LCD_D     : inout std_logic_vector (3 downto 0); 
+             LCD_E     : out   std_logic; 
+             LCD_RW    : out   std_logic; 
+             LCD_RS    : out   std_logic; 
+             SF_CE     : out   std_logic; 
+             Reset     : in    std_logic; 
+             Clk_50MHz : in    std_logic);
+   end component;
+   
+   component keyBuffer_MUSER_DES_Cryptanalysis
+      port ( keyIn     : in    std_logic_vector (0 to 63); 
+             Clk_50MHz : in    std_logic; 
+             CE        : in    std_logic; 
+             keyOut    : out   std_logic_vector (0 to 63));
+   end component;
+   
+   component keyGen
+      port ( clk     : in    std_logic; 
+             CE      : in    std_logic; 
+             isfound : in    std_logic; 
+             msgin   : in    std_logic_vector (0 to 63); 
+             msgout  : out   std_logic_vector (0 to 63); 
+             keyout  : out   std_logic_vector (0 to 63));
+   end component;
+   
+   component display
+      port ( clk      : in    std_logic; 
+             isfound  : in    std_logic; 
+             CE       : in    std_logic; 
+             foundkey : in    std_logic_vector (0 to 63); 
+             LCD_DI   : out   std_logic_vector (0 to 63); 
+             LCD_B2   : out   std_logic_vector (0 to 15));
+   end component;
+   
+   component AND2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND2 : component is "BLACK_BOX";
+   
+   component PS2_Kbd
+      port ( PS2_Clk   : in    std_logic; 
+             PS2_Data  : in    std_logic; 
+             Clk_50MHz : in    std_logic; 
+             E0        : out   std_logic; 
+             F0        : out   std_logic; 
+             DO_Rdy    : out   std_logic; 
+             DO        : out   std_logic_vector (7 downto 0); 
+             Clk_Sys   : in    std_logic);
+   end component;
+   
+   component inputModule
+      port ( KbdE0      : in    std_logic; 
+             KbdF0      : in    std_logic; 
+             KbdDataRdy : in    std_logic; 
+             clk        : in    std_logic; 
+             stop       : in    std_logic; 
+             KbdDO      : in    std_logic_vector (0 to 7); 
+             typing     : out   std_logic; 
+             datardy1   : out   std_logic; 
+             datardy2   : out   std_logic; 
+             led4       : out   std_logic; 
+             led5       : out   std_logic; 
+             led6       : out   std_logic; 
+             led7       : out   std_logic; 
+             LCD_DI     : out   std_logic_vector (0 to 63); 
+             LCD_B1     : out   std_logic_vector (0 to 15); 
+             ciphertext : out   std_logic_vector (0 to 63); 
+             expected   : out   std_logic_vector (0 to 63));
    end component;
    
 begin
+   datardy1 <= datardy1_DUMMY;
+   datardy2 <= datardy2_DUMMY;
    isfound <= isfound_DUMMY;
-   keyout(0 to 63) <= keyout_DUMMY(0 to 63);
-   plaintext(0 to 63) <= plaintext_DUMMY(0 to 63);
    XLXI_20 : DES_Decoder_MUSER_DES_Cryptanalysis
-      port map (ciphertext(0 to 63)=>msgout(0 to 63),
+      port map (CE=>XLXN_107,
+                ciphertext(0 to 63)=>XLXN_65(0 to 63),
                 Clk_50MHz=>Clk_50MHz,
-                key(0 to 63)=>XLXN_25(0 to 63),
-                plaintext(0 to 63)=>plaintext_DUMMY(0 to 63));
-   
-   XLXI_34 : keyGen
-      port map (clk=>Clk_50MHz,
-                isfound=>isfound_DUMMY,
-                msgin(0 to 63)=>ciphertext(0 to 63),
-                keyout(0 to 63)=>XLXN_25(0 to 63),
-                msgout(0 to 63)=>msgout(0 to 63));
-   
-   XLXI_37 : keyBuffer_MUSER_DES_Cryptanalysis
-      port map (Clk_50MHz=>Clk_50MHz,
-                keyIn(0 to 63)=>XLXN_25(0 to 63),
-                keyOut(0 to 63)=>keyout_DUMMY(0 to 63));
+                key(0 to 63)=>XLXN_64(0 to 63),
+                plaintext(0 to 63)=>plaintext(0 to 63));
    
    XLXI_38 : cmpPT
-      port map (clk=>Clk_50MHz,
-                expected(0 to 63)=>expected(0 to 63),
-                keyin(0 to 63)=>keyout_DUMMY(0 to 63),
-                plaintext(0 to 63)=>plaintext_DUMMY(0 to 63),
+      port map (CE=>XLXN_107,
+                clk=>Clk_50MHz,
+                expected(0 to 63)=>XLXN_111(0 to 63),
+                keyin(0 to 63)=>keyout(0 to 63),
+                plaintext(0 to 63)=>plaintext(0 to 63),
                 isfound=>isfound_DUMMY,
-                keyout(0 to 63)=>foundkey(0 to 63));
+                keyout(0 to 63)=>XLXN_57(0 to 63));
+   
+   XLXI_40 : LCD2x64
+      port map (Blank1(15 downto 0)=>XLXN_101(15 downto 0),
+                Blank2(15 downto 0)=>XLXN_99(0 to 15),
+                Clk_50MHz=>Clk_50MHz,
+                Line1(63 downto 0)=>XLXN_102(63 downto 0),
+                Line2(63 downto 0)=>XLXN_100(0 to 63),
+                Reset=>Reset,
+                LCD_E=>LCD_E,
+                LCD_RS=>LCD_RS,
+                LCD_RW=>LCD_RW,
+                SF_CE=>SF_CE,
+                LCD_D(3 downto 0)=>LCD_D(3 downto 0));
+   
+   XLXI_44 : keyBuffer_MUSER_DES_Cryptanalysis
+      port map (CE=>XLXN_107,
+                Clk_50MHz=>Clk_50MHz,
+                keyIn(0 to 63)=>XLXN_64(0 to 63),
+                keyOut(0 to 63)=>keyout(0 to 63));
+   
+   XLXI_46 : keyGen
+      port map (CE=>XLXN_107,
+                clk=>Clk_50MHz,
+                isfound=>isfound_DUMMY,
+                msgin(0 to 63)=>XLXN_109(0 to 63),
+                keyout(0 to 63)=>XLXN_64(0 to 63),
+                msgout(0 to 63)=>XLXN_65(0 to 63));
+   
+   XLXI_48 : display
+      port map (CE=>XLXN_107,
+                clk=>Clk_50MHz,
+                foundkey(0 to 63)=>XLXN_57(0 to 63),
+                isfound=>isfound_DUMMY,
+                LCD_B2(0 to 15)=>XLXN_99(0 to 15),
+                LCD_DI(0 to 63)=>XLXN_100(0 to 63));
+   
+   XLXI_50 : AND2
+      port map (I0=>datardy2_DUMMY,
+                I1=>datardy1_DUMMY,
+                O=>XLXN_107);
+   
+   XLXI_51 : PS2_Kbd
+      port map (Clk_Sys=>Clk_50MHz,
+                Clk_50MHz=>Clk_50MHz,
+                PS2_Clk=>PS2_Clk,
+                PS2_Data=>PS2_Data,
+                DO(7 downto 0)=>XLXN_77(7 downto 0),
+                DO_Rdy=>XLXN_76,
+                E0=>XLXN_72,
+                F0=>XLXN_73);
+   
+   XLXI_52 : inputModule
+      port map (clk=>Clk_50MHz,
+                KbdDataRdy=>XLXN_76,
+                KbdDO(0 to 7)=>XLXN_77(7 downto 0),
+                KbdE0=>XLXN_72,
+                KbdF0=>XLXN_73,
+                stop=>XLXN_107,
+                ciphertext(0 to 63)=>XLXN_109(0 to 63),
+                datardy1=>datardy1_DUMMY,
+                datardy2=>datardy2_DUMMY,
+                expected(0 to 63)=>XLXN_111(0 to 63),
+                LCD_B1(0 to 15)=>XLXN_101(15 downto 0),
+                LCD_DI(0 to 63)=>XLXN_102(63 downto 0),
+                led4=>led4,
+                led5=>led5,
+                led6=>led6,
+                led7=>led7,
+                typing=>typing);
    
 end BEHAVIORAL;
 
