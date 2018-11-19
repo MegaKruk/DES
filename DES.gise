@@ -54,6 +54,7 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DES_Cryptanalysis_DES_Cryptanalysis_sch_tb_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Cryptanalysis_DES_Cryptanalysis_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="DES_Cryptanalysis_drc.vhf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DES_Cryptanalysis_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="DES_Cryptanalysis_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DES_Cryptanalysis_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DES_Cryptanalysis_map.mrp" xil_pn:subbranch="Map"/>
@@ -64,6 +65,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DES_Cryptanalysis_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="DES_Cryptanalysis_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DES_Cryptanalysis_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DES_Cryptanalysis_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DES_Cryptanalysis_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="DES_Cryptanalysis_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DES_Cryptanalysis_vhdl.prj"/>
@@ -313,11 +315,11 @@
       <outfile xil_pn:name="DES_Decoder_DES_Decoder_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
-    <transform xil_pn:end_ts="1541516020" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1541516020">
+    <transform xil_pn:end_ts="1542465391" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1542465391">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:in_ck="-8670383809219591263" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6687432105190314361" xil_pn:start_ts="1541516020">
+    <transform xil_pn:end_ts="1542465393" xil_pn:in_ck="-8670383809219591263" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6687432105190314361" xil_pn:start_ts="1542465391">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Cryptanalysis.vhf"/>
@@ -325,27 +327,27 @@
       <outfile xil_pn:name="Feistel.vhf"/>
       <outfile xil_pn:name="keyBuffer.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1709151738143887175" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465393" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1709151738143887175" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465393" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6342126973985589047" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465393" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6342126973985589047" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465393" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516024" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-806288174745056303" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465393" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-806288174745056303" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516071" xil_pn:in_ck="-1978016216295367488" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1120603831655794461" xil_pn:start_ts="1541516024">
+    <transform xil_pn:end_ts="1542465437" xil_pn:in_ck="-1978016216295367488" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1120603831655794461" xil_pn:start_ts="1542465393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -368,11 +370,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1541516071" xil_pn:in_ck="-1492876174151587523" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3493555801896133427" xil_pn:start_ts="1541516071">
+    <transform xil_pn:end_ts="1542465437" xil_pn:in_ck="-1492876174151587523" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3493555801896133427" xil_pn:start_ts="1542465437">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541516080" xil_pn:in_ck="7479274706469444148" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4194465286253824724" xil_pn:start_ts="1541516071">
+    <transform xil_pn:end_ts="1542465445" xil_pn:in_ck="7479274706469444148" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4194465286253824724" xil_pn:start_ts="1542465437">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -382,10 +384,12 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541516102" xil_pn:in_ck="3653945611256249397" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1541516080">
+    <transform xil_pn:end_ts="1542465454" xil_pn:in_ck="3653945611256249397" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1542465445">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="DES_Cryptanalysis.pcf"/>
       <outfile xil_pn:name="DES_Cryptanalysis_map.map"/>
       <outfile xil_pn:name="DES_Cryptanalysis_map.mrp"/>
@@ -396,7 +400,7 @@
       <outfile xil_pn:name="DES_Cryptanalysis_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541516209" xil_pn:in_ck="5532812753368078670" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1541516102">
+    <transform xil_pn:end_ts="1542465548" xil_pn:in_ck="5532812753368078670" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1542465454">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Cryptanalysis.ncd"/>
@@ -410,7 +414,7 @@
       <outfile xil_pn:name="DES_Cryptanalysis_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541516246" xil_pn:in_ck="-7496571051248000396" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1541516209">
+    <transform xil_pn:end_ts="1542465576" xil_pn:in_ck="-7496571051248000396" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1542465548">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Cryptanalysis.ut"/>
@@ -422,7 +426,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1541516209" xil_pn:in_ck="-7911447884469488719" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1541516200">
+    <transform xil_pn:end_ts="1542465548" xil_pn:in_ck="-7911447884469488719" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1542465540">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DES_Cryptanalysis.twr"/>
