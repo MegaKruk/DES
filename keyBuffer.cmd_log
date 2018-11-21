@@ -1,16 +1,1 @@
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 
 sch2sym -intstyle ise -family spartan3e -refsym keyBuffer {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sym} 

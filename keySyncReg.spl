@@ -1,0 +1,7 @@
+[Inputs]
+clk
+CE
+=keyIn[0:63]=
+[Outputs]
+=keyOut[0:63]=
+[BiDir]

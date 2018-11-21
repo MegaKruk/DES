@@ -31,7 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity keySyncReg is
 	Port ( keyIn : in  STD_LOGIC_VECTOR (0 to 63);
-           clk : in  STD_LOGIC;
+           clk, CE : in  STD_LOGIC;
            keyOut : out  STD_LOGIC_VECTOR (0 to 63));
 end keySyncReg;
 
@@ -41,7 +41,7 @@ begin
 
 process(clk)
 	begin
-	if rising_edge(clk) then
+	if rising_edge(clk) and (CE = '1') then
 		keyOut <= keyIn;
 	end if;
 end process;

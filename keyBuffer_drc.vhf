@@ -6,12 +6,12 @@
 -- /___/  \  /    Vendor: Xilinx 
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
---  /   /         Filename : keyBuffer.vhf
--- /___/   /\     Timestamp : 11/06/2018 14:34:56
+--  /   /         Filename : keyBuffer_drc.vhf
+-- /___/   /\     Timestamp : 11/06/2018 13:58:50
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.vhf" -w "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch"
+--Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -flat -suppress -vhdl keyBuffer_drc.vhf -w "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.sch"
 --Design Name: keyBuffer
 --Device: spartan3e
 --Purpose:
