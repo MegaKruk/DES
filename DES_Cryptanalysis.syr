@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: DES_Cryptanalysis.prj
 
@@ -104,71 +104,67 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_0.vhd" in Library work.
 Architecture behavior of Entity sbox_0 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_1.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_1.vhd" in Library work.
 Architecture behavior of Entity sbox_1 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_2.vhd" in Library work.
 Architecture behavior of Entity sbox_2 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_3.vhd" in Library work.
 Architecture behavior of Entity sbox_3 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_4.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_4.vhd" in Library work.
 Architecture behavior of Entity sbox_4 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_5.vhd" in Library work.
 Architecture behavior of Entity sbox_5 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_6.vhd" in Library work.
 Architecture behavior of Entity sbox_6 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_7.vhd" in Library work.
 Architecture behavior of Entity sbox_7 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expP.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/expP.vhd" in Library work.
 Architecture behavior of Entity expp is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xor48.vhd" in Library work.
 Architecture behavioral of Entity xor48 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sboxes.vhd" in Library work.
 Architecture behavior of Entity sboxes is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockP.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/pblockP.vhd" in Library work.
 Architecture behavior of Entity pblockp is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xorLR.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xorLR.vhd" in Library work.
 Architecture behavioral of Entity xorlr is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keySyncReg.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/keySyncReg.vhd" in Library work.
 Architecture behavioral of Entity keysyncreg is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/IP.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/IP.vhd" in Library work.
 Architecture behavior of Entity ip is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC1.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/PC1.vhd" in Library work.
 Architecture behavior of Entity pc1 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/PC2.vhd" in Library work.
 Architecture behavior of Entity pc2 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/syncReg.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/syncReg.vhd" in Library work.
 Architecture behavioral of Entity syncreg is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/rotR1.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR1.vhd" in Library work.
 Architecture behavioral of Entity rotr1 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/rotR2.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR2.vhd" in Library work.
 Architecture behavioral of Entity rotr2 is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revIP.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/revIP.vhd" in Library work.
 Architecture behavior of Entity revip is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.vhd" in Library work.
 Architecture behavioral of Entity cmppt is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyGen.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/keyGen.vhd" in Library work.
 Architecture behavioral of Entity keygen is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/display.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/display.vhd" in Library work.
 Architecture behavioral of Entity display is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/inputModule.vhd" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/inputModule.vhd" in Library work.
 Architecture behavioral of Entity inputmodule is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" in Library work.
-Entity <keybuffer_muser_des_cryptanalysis> compiled.
-Entity <keybuffer_muser_des_cryptanalysis> (Architecture <behavioral>) compiled.
-Entity <feistel_muser_des_cryptanalysis> compiled.
-Entity <feistel_muser_des_cryptanalysis> (Architecture <behavioral>) compiled.
-Entity <des_decoder_muser_des_cryptanalysis> compiled.
-Entity <des_decoder_muser_des_cryptanalysis> (Architecture <behavioral>) compiled.
-Entity <des_cryptanalysis> compiled.
-Entity <des_cryptanalysis> (Architecture <behavioral>) compiled.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" in Library work.
+Architecture behavioral of Entity keybuffer_muser_des_cryptanalysis is up to date.
+Architecture behavioral of Entity feistel_muser_des_cryptanalysis is up to date.
+Architecture behavioral of Entity des_decoder_muser_des_cryptanalysis is up to date.
+Architecture behavioral of Entity des_cryptanalysis is up to date.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Decoder.vhf" in Library work.
 Architecture behavioral of Entity feistel_muser_des_decoder is up to date.
 Architecture behavioral of Entity des_decoder is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyBuffer.vhf" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/keyBuffer.vhf" in Library work.
 Architecture behavioral of Entity keybuffer is up to date.
-Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/DES/Feistel.vhf" in Library work.
+Compiling vhdl file "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/Feistel.vhf" in Library work.
 Architecture behavioral of Entity feistel is up to date.
 
 =========================================================================
@@ -237,13 +233,13 @@ Analyzing hierarchy for entity <sbox_7> in library <work> (architecture <behavio
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <DES_Cryptanalysis> in library <work> (Architecture <behavioral>).
-WARNING:Xst:2211 - "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 1098: Instantiating black box module <LCD2x64>.
-WARNING:Xst:2211 - "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 1138: Instantiating black box module <PS2_Kbd>.
+WARNING:Xst:2211 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 1098: Instantiating black box module <LCD2x64>.
+WARNING:Xst:2211 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 1138: Instantiating black box module <PS2_Kbd>.
 Entity <DES_Cryptanalysis> analyzed. Unit <DES_Cryptanalysis> generated.
 
 Analyzing Entity <DES_Decoder_MUSER_DES_Cryptanalysis> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 915: Unconnected output port 'leftkeyOut' of component 'syncReg'.
-WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 915: Unconnected output port 'rightkeyOut' of component 'syncReg'.
+WARNING:Xst:753 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 915: Unconnected output port 'leftkeyOut' of component 'syncReg'.
+WARNING:Xst:753 - "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf" line 915: Unconnected output port 'rightkeyOut' of component 'syncReg'.
 Entity <DES_Decoder_MUSER_DES_Cryptanalysis> analyzed. Unit <DES_Decoder_MUSER_DES_Cryptanalysis> generated.
 
 Analyzing Entity <IP> in library <work> (Architecture <behavior>).
@@ -335,7 +331,7 @@ Entity <inputModule> analyzed. Unit <inputModule> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <cmpPT>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/cmpPT.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/cmpPT.vhd".
     Found 64-bit register for signal <keyout>.
     Found 1-bit register for signal <foundcheck>.
     Found 64-bit comparator equal for signal <keyout$cmp_eq0000> created at line 52.
@@ -346,7 +342,7 @@ Unit <cmpPT> synthesized.
 
 
 Synthesizing Unit <keyGen>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keyGen.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/keyGen.vhd".
     Found 64-bit register for signal <keyout>.
     Found 64-bit register for signal <msgout>.
     Found 56-bit up counter for signal <I>.
@@ -359,7 +355,7 @@ Unit <keyGen> synthesized.
 
 
 Synthesizing Unit <display>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/display.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/display.vhd".
     Found 64-bit register for signal <LCD_DI>.
     Found 16-bit register for signal <blank2>.
     Summary:
@@ -368,7 +364,7 @@ Unit <display> synthesized.
 
 
 Synthesizing Unit <inputModule>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/inputModule.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/inputModule.vhd".
     Found 64-bit register for signal <LCD_DI>.
     Found 1-bit register for signal <led4>.
     Found 1-bit register for signal <led5>.
@@ -403,12 +399,12 @@ Unit <inputModule> synthesized.
 
 
 Synthesizing Unit <IP>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/IP.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/IP.vhd".
 Unit <IP> synthesized.
 
 
 Synthesizing Unit <PC1>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC1.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/PC1.vhd".
 WARNING:Xst:647 - Input <myinput<7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <myinput<15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <myinput<23>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -421,7 +417,7 @@ Unit <PC1> synthesized.
 
 
 Synthesizing Unit <PC2>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/PC2.vhd".
 WARNING:Xst:646 - Signal <myMerge<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <myMerge<17>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <myMerge<21>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -435,7 +431,7 @@ Unit <PC2> synthesized.
 
 
 Synthesizing Unit <syncReg>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/syncReg.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/syncReg.vhd".
     Found 32-bit register for signal <rightOut>.
     Found 32-bit register for signal <leftOut>.
     Found 28-bit register for signal <leftkeyOut>.
@@ -446,44 +442,44 @@ Unit <syncReg> synthesized.
 
 
 Synthesizing Unit <rotR1>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/rotR1.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR1.vhd".
 Unit <rotR1> synthesized.
 
 
 Synthesizing Unit <rotR2>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/rotR2.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/rotR2.vhd".
 Unit <rotR2> synthesized.
 
 
 Synthesizing Unit <revIP>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revIP.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/revIP.vhd".
 Unit <revIP> synthesized.
 
 
 Synthesizing Unit <expP>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expP.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/expP.vhd".
 Unit <expP> synthesized.
 
 
 Synthesizing Unit <xor48>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xor48.vhd".
     Found 48-bit xor2 for signal <myoutput>.
 Unit <xor48> synthesized.
 
 
 Synthesizing Unit <pblockP>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockP.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/pblockP.vhd".
 Unit <pblockP> synthesized.
 
 
 Synthesizing Unit <xorLR>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xorLR.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xorLR.vhd".
     Found 32-bit xor2 for signal <rightoutput>.
 Unit <xorLR> synthesized.
 
 
 Synthesizing Unit <sbox_0>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_0.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -493,7 +489,7 @@ Unit <sbox_0> synthesized.
 
 
 Synthesizing Unit <sbox_1>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_1.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_1.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -503,7 +499,7 @@ Unit <sbox_1> synthesized.
 
 
 Synthesizing Unit <sbox_2>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_2.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -513,7 +509,7 @@ Unit <sbox_2> synthesized.
 
 
 Synthesizing Unit <sbox_3>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_3.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -523,7 +519,7 @@ Unit <sbox_3> synthesized.
 
 
 Synthesizing Unit <sbox_4>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_4.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_4.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -533,7 +529,7 @@ Unit <sbox_4> synthesized.
 
 
 Synthesizing Unit <sbox_5>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_5.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -543,7 +539,7 @@ Unit <sbox_5> synthesized.
 
 
 Synthesizing Unit <sbox_6>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_6.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -553,7 +549,7 @@ Unit <sbox_6> synthesized.
 
 
 Synthesizing Unit <sbox_7>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sbox_7.vhd".
     Found 4x64-bit ROM for signal <row$rom0000>.
     Found 4-bit 16-to-1 multiplexer for signal <decimalOutput>.
     Summary:
@@ -563,7 +559,7 @@ Unit <sbox_7> synthesized.
 
 
 Synthesizing Unit <keySyncReg>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/keySyncReg.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/keySyncReg.vhd".
     Found 64-bit register for signal <keyOut>.
     Summary:
 	inferred  64 D-type flip-flop(s).
@@ -571,27 +567,27 @@ Unit <keySyncReg> synthesized.
 
 
 Synthesizing Unit <keyBuffer_MUSER_DES_Cryptanalysis>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
 Unit <keyBuffer_MUSER_DES_Cryptanalysis> synthesized.
 
 
 Synthesizing Unit <sboxes>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/sboxes.vhd".
 Unit <sboxes> synthesized.
 
 
 Synthesizing Unit <Feistel_MUSER_DES_Cryptanalysis>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
 Unit <Feistel_MUSER_DES_Cryptanalysis> synthesized.
 
 
 Synthesizing Unit <DES_Decoder_MUSER_DES_Cryptanalysis>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
 Unit <DES_Decoder_MUSER_DES_Cryptanalysis> synthesized.
 
 
 Synthesizing Unit <DES_Cryptanalysis>.
-    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
+    Related source file is "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/DES_Cryptanalysis.vhf".
 Unit <DES_Cryptanalysis> synthesized.
 
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -2275,12 +2271,12 @@ Offset:              5.584ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 43.00 secs
-Total CPU time to Xst completion: 43.12 secs
+Total REAL time to Xst completion: 42.00 secs
+Total CPU time to Xst completion: 42.29 secs
  
 --> 
 
-Total memory usage is 4731332 kilobytes
+Total memory usage is 4731300 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  409 (   0 filtered)

@@ -9,7 +9,7 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -5
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Tue Nov 06 15:54:44 2018
+Mapped Date    : Sat Nov 17 15:37:26 2018
 
 Design Summary
 --------------
@@ -37,8 +37,8 @@ Logic Distribution:
 Average Fanout of Non-Clock Nets:                4.50
 
 Peak Memory Usage:  4515 MB
-Total REAL time to MAP completion:  16 secs 
-Total CPU time to MAP completion:   9 secs 
+Total REAL time to MAP completion:  7 secs 
+Total CPU time to MAP completion:   6 secs 
 
 NOTES:
 
@@ -97,6 +97,8 @@ INFO:LIT:395 - The above info message is repeated 6 more times for the following
    XLXI_40/genIOBUF[1].instIOBUF/O
    To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:159 - Net Timing constraints on signal Clk_50MHz are pushed forward
+   through input buffer.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
    can be dramatically reduced by designating them as fast outputs.
