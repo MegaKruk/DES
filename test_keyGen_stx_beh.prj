@@ -1,0 +1,2 @@
+vhdl isim_temp "keyGen.vhd"
+vhdl isim_temp "test_keyGen.vhd"

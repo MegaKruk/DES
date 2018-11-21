@@ -34,7 +34,7 @@ entity syncReg is
 			  rightIn : in  STD_LOGIC_VECTOR (0 to 31);
 			  leftkeyIn : in  STD_LOGIC_VECTOR (0 to 27);
 			  rightkeyIn : in  STD_LOGIC_VECTOR (0 to 27);
-           clk : in  STD_LOGIC;
+           clk, CE : in  STD_LOGIC;
            leftOut : out  STD_LOGIC_VECTOR (0 to 31);
 			  rightOut : out  STD_LOGIC_VECTOR (0 to 31);
 			  leftkeyOut : out  STD_LOGIC_VECTOR (0 to 27);
@@ -46,7 +46,7 @@ architecture Behavioral of syncReg is
 begin
 process(clk)
 	begin
-	if rising_edge(clk) then
+	if rising_edge(clk) and (CE = '1') then
 		leftOut <= leftIn;
 		rightOut <= rightIn;
 		leftkeyOut <= leftkeyIn;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="syncReg">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-6-30T9:43:20</timestamp>
+    <timestamp>2018-11-6T13:13:18</timestamp>
     <pin polarity="Input" x="0" y="-288" name="clk" />
     <pin polarity="Input" x="0" y="-224" name="leftIn(0:31)" />
     <pin polarity="Input" x="0" y="-160" name="rightIn(0:31)" />
@@ -11,34 +11,37 @@
     <pin polarity="Output" x="480" y="-208" name="rightOut(0:31)" />
     <pin polarity="Output" x="480" y="-128" name="leftkeyOut(0:27)" />
     <pin polarity="Output" x="480" y="-48" name="rightkeyOut(0:27)" />
+    <pin polarity="Input" x="0" y="32" name="CE" />
     <graph>
-        <rect width="352" x="64" y="-320" height="320" />
         <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-328" type="symbol" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin clk" />
-        <line x2="0" y1="-288" y2="-288" x1="64" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin leftIn(0:31)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin rightIn(0:31)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin leftkeyIn(0:27)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin rightkeyIn(0:27)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-288" type="pin leftOut(0:31)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-208" type="pin rightOut(0:31)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-128" type="pin leftkeyOut(0:27)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-48" type="pin rightkeyOut(0:27)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin CE" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
         <rect width="64" x="0" y="-236" height="24" />
         <line x2="0" y1="-224" y2="-224" x1="64" />
-        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin rightIn(0:31)" />
         <rect width="64" x="0" y="-172" height="24" />
         <line x2="0" y1="-160" y2="-160" x1="64" />
-        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin leftkeyIn(0:27)" />
         <rect width="64" x="0" y="-108" height="24" />
         <line x2="0" y1="-96" y2="-96" x1="64" />
-        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin rightkeyIn(0:27)" />
         <rect width="64" x="0" y="-44" height="24" />
         <line x2="0" y1="-32" y2="-32" x1="64" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-288" type="pin leftOut(0:31)" />
         <rect width="64" x="416" y="-300" height="24" />
         <line x2="480" y1="-288" y2="-288" x1="416" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-208" type="pin rightOut(0:31)" />
         <rect width="64" x="416" y="-220" height="24" />
         <line x2="480" y1="-208" y2="-208" x1="416" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-128" type="pin leftkeyOut(0:27)" />
         <rect width="64" x="416" y="-140" height="24" />
         <line x2="480" y1="-128" y2="-128" x1="416" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-48" type="pin rightkeyOut(0:27)" />
         <rect width="64" x="416" y="-60" height="24" />
         <line x2="480" y1="-48" y2="-48" x1="416" />
+        <rect width="352" x="64" y="-320" height="384" />
     </graph>
 </symbol>

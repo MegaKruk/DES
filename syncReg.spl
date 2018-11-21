@@ -1,5 +1,6 @@
 [Inputs]
 clk
+CE
 =leftIn[0:31]=
 =rightIn[0:31]=
 =leftkeyIn[0:27]=

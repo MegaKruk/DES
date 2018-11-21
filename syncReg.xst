@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Filicz/Documents/workspace/ISE Projects/DES/xst"
+set -tmpdir "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst"
 elaborate
 -ifn syncReg.prj
 -ifmt mixed
